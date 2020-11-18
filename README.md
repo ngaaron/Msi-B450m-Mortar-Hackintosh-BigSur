@@ -3,7 +3,7 @@
 
 
 ### EFI详情
-* 支持MacOS版本：Big Sur 11.0。1
+* 支持MacOS版本：Big Sur 11.0.1
 * OpenCore版本：0.6.3
 * 更新日期：2020年11月18日
 
