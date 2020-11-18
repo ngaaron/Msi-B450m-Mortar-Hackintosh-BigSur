@@ -3,9 +3,13 @@ Hackintosh Big Sur EFI for MSI B450m Mortar + R5 2600 + RX 570
 
 
 EFI详情
+
 支持MacOS版本：Big Sur 11.0。1
+
 OpenCore版本：0.6.3
+
 更新日期：2020年11月18日
+
 
 配置清单
 ·主板：MSI B450m Mortar 迫击炮钛金版
