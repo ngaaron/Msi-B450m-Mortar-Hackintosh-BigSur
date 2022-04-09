@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19F101</string>
+	<string>19H1217</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.7</string>
+	<string>1.2.4</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,21 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.1.7</string>
+	<string>1.2.4</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E708</string>
+	<string>12B45b</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.0</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>20A2408</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.0</string>
 	<key>DTXcode</key>
-	<string>1160</string>
+	<string>1220</string>
 	<key>DTXcodeBuild</key>
-	<string>11E708</string>
+	<string>12B45b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>as.vit9696.VirtualSMC</key>
@@ -73,9 +75,7 @@
 			</array>
 			<key>IOInterruptSpecifiers</key>
 			<array>
-				<data>
-				BgAAAAAAAAA=
-				</data>
+				<data>BgAAAAAAAAA=</data>
 			</array>
 			<key>IOMatchCategory</key>
 			<string>IOACPIPlatformDevice</string>
@@ -91,123 +91,75 @@
 				<array>
 					<dict>
 						<key>attr</key>
-						<data>
-						iA==
-						</data>
+						<data>iA==</data>
 						<key>comment</key>
 						<string>Total fan number, this should be put to a plugin</string>
 						<key>name</key>
-						<data>
-						Rk51bQ==
-						</data>
+						<data>Rk51bQ==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>CPU plimit</string>
 						<key>name</key>
-						<data>
-						TVNUYw==
-						</data>
+						<data>TVNUYw==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>FAN plimit (supposedly)</string>
 						<key>name</key>
-						<data>
-						TVNUZg==
-						</data>
+						<data>TVNUZg==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>Memory plimit</string>
 						<key>name</key>
-						<data>
-						TVNUbQ==
-						</data>
+						<data>TVNUbQ==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>This should be 1 on laptops, and is overriden by sensors</string>
 						<key>name</key>
-						<data>
-						QkFUUA==
-						</data>
+						<data>QkFUUA==</data>
 						<key>type</key>
-						<data>
-						ZmxhZw==
-						</data>
+						<data>ZmxhZw==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>Only MacPros have custom illumination controllers</string>
 						<key>name</key>
-						<data>
-						THNOTQ==
-						</data>
+						<data>THNOTQ==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 				</array>
 				<key>GenericDesktopV1</key>
@@ -222,86 +174,54 @@
 				<array>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>GPU plimit</string>
 						<key>name</key>
-						<data>
-						TVNUZw==
-						</data>
+						<data>TVNUZw==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 				</array>
 				<key>GenericV2</key>
 				<array>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>E plimit (???)</string>
 						<key>name</key>
-						<data>
-						TVNUZQ==
-						</data>
+						<data>TVNUZQ==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>I plimit (???)</string>
 						<key>name</key>
-						<data>
-						TVNUaQ==
-						</data>
+						<data>TVNUaQ==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 					<dict>
 						<key>attr</key>
-						<data>
-						gA==
-						</data>
+						<data>gA==</data>
 						<key>comment</key>
 						<string>J plimit (???)</string>
 						<key>name</key>
-						<data>
-						TVNUag==
-						</data>
+						<data>TVNUag==</data>
 						<key>type</key>
-						<data>
-						dWk4IA==
-						</data>
+						<data>dWk4IA==</data>
 						<key>value</key>
-						<data>
-						AA==
-						</data>
+						<data>AA==</data>
 					</dict>
 				</array>
 			</dict>
@@ -310,75 +230,419 @@
 				<key>GenericV1</key>
 				<dict>
 					<key>branch</key>
-					<data>
-					ajUyAAAAAAA=
-					</data>
+					<data>ajUyAAAAAAA=</data>
 					<key>hwname</key>
-					<data>
-					c21jLXBpa2V0b24A
-					</data>
+					<data>c21jLXBpa2V0b24A</data>
 					<key>platform</key>
-					<data>
-					ajUyAAAAAAA=
-					</data>
+					<data>ajUyAAAAAAA=</data>
 					<key>rev</key>
-					<data>
-					AXQPAAAE
-					</data>
+					<data>AXQPAAAE</data>
 					<key>revfb</key>
-					<data>
-					AXQPAAAE
-					</data>
+					<data>AXQPAAAE</data>
 					<key>revfu</key>
-					<data>
-					AXQPAAAE
-					</data>
+					<data>AXQPAAAE</data>
 				</dict>
 				<key>GenericV2</key>
 				<dict>
 					<key>branch</key>
-					<data>
-					ajUyAAAAAAA=
-					</data>
+					<data>ajUyAAAAAAA=</data>
 					<key>hwname</key>
-					<data>
-					c21jLWh1cm9ucml2ZXIA
-					</data>
+					<data>c21jLWh1cm9ucml2ZXIA</data>
 					<key>platform</key>
-					<data>
-					ajUyAAAAAAA=
-					</data>
+					<data>ajUyAAAAAAA=</data>
 					<key>rev</key>
-					<data>
-					AigPAAAH
-					</data>
+					<data>AigPAAAH</data>
 					<key>revfb</key>
-					<data>
-					AigPAAAH
-					</data>
+					<data>AigPAAAH</data>
 					<key>revfu</key>
-					<data>
-					AigPAAAH
-					</data>
+					<data>AigPAAAH</data>
 				</dict>
 				<key>GenericV3</key>
 				<dict>
 					<key>hwname</key>
-					<data>
-					c21jLWh1cm9ucml2ZXIA
-					</data>
+					<data>c21jLWh1cm9ucml2ZXIA</data>
 					<key>platform</key>
-					<data>
-					ajUyAAAAAAA=
-					</data>
+					<data>ajUyAAAAAAA=</data>
 				</dict>
 			</dict>
 			<key>_STA</key>
 			<integer>11</integer>
 			<key>name</key>
-			<data>
-			QVBQMDAwMQA=
-			</data>
+			<data>QVBQMDAwMQA=</data>
+		</dict>
+		<key>AMD Radeon X4000 SI Services</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4000HWServices</string>
+			<key>IOClass</key>
+			<string>AMDRadeonX4000_AMDRadeonHWServicesSI</string>
+			<key>IOMatchCategory</key>
+			<string>AMDRadeonX4000HWServices</string>
+			<key>IOPCIMatch</key>
+			<string>0x67901002 0x67981002 0x679A1002 0x679E1002 0x67801002 0x68201002 0x68211002 0x68231002 0x68251002 0x68271002 0x682B1002 0x682D1002 0x682F1002 0x68351002 0x68391002 0x683B1002 0x683D1002 0x683F1002 0x68001002 0x68011002 0x68061002 0x68081002 0x68101002 0x68111002 0x68181002 0x68191002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>65051</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>LoadHWServices</key>
+				<true/>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>AMDPitcairnGraphicsAccelerator</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4000</string>
+			<key>GpuDebugPolicy</key>
+			<integer>0</integer>
+			<key>IOClass</key>
+			<string>AMDRadeonX4000_AMDPitcairnGraphicsAccelerator</string>
+			<key>IODVDBundleName</key>
+			<string>AMDRadeonVADriver</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOAccelerator</string>
+			<key>IOPCIMatch</key>
+			<string>0x68001002 0x68011002 0x68061002 0x68081002 0x68101002 0x68111002 0x68181002 0x68191002</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>LoadAccelerator</key>
+				<true/>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOSourceVersion</key>
+			<string>0.0.0.0.0</string>
+			<key>IOVARendererID</key>
+			<integer>16908288</integer>
+		</dict>
+		<key>AtiGpuWrangler</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMD7000Controller</string>
+			<key>IOClass</key>
+			<string>AMD7000ControllerWrangler</string>
+			<key>IOMatchCategory</key>
+			<string>IOFramebuffer</string>
+			<key>IOPCIMatch</key>
+			<string>0x67901002 0x67981002 0x679A1002 0x679E1002 0x67801002 0x68201002 0x68211002 0x68231002 0x68251002 0x68271002 0x682B1002 0x682D1002 0x682F1002 0x68351002 0x68391002 0x683B1002 0x683D1002 0x683F1002 0x68001002 0x68011002 0x68061002 0x68081002 0x68101002 0x68111002 0x68181002 0x68191002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>65050</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Controller</key>
+		<dict>
+			<key>ATY,Hamachi</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_USE_SM</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>ATY,Ikura</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_PTPL2_TBL</key>
+					<data>VwAAAFQAAABQAAAATAAAAEgAAABEAAAAQAAAADwAAAA4AAAANgAAADQAAAAyAAAAMAAAAC4AAAAsAAAAKgAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>5</integer>
+				</dict>
+			</dict>
+			<key>ATY,IkuraS</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_PTPL2_TBL</key>
+					<data>VwAAAFQAAABQAAAATAAAAEgAAABEAAAAQAAAADwAAAA4AAAANgAAADQAAAAyAAAAMAAAAC4AAAAsAAAAKgAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>5</integer>
+				</dict>
+			</dict>
+			<key>ATY,Kani</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_PTPL2_TBL</key>
+					<data>VwAAAFYAAABVAAAAVAAAAFMAAABSAAAAUQAAAFAAAABPAAAATgAAAE0AAABMAAAASwAAAEoAAABJAAAASAAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>5</integer>
+				</dict>
+			</dict>
+			<key>ATY,KaniS</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_PTPL2_TBL</key>
+					<data>VwAAAFYAAABVAAAAVAAAAFMAAABSAAAAUQAAAFAAAABPAAAATgAAAE0AAABMAAAASwAAAEoAAABJAAAASAAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>5</integer>
+				</dict>
+			</dict>
+			<key>ATY,Maguro</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_NEED_RFRSH</key>
+					<true/>
+					<key>CFG_PTPL2_TBL</key>
+					<data>XQAAAEsAAABIAAAARQAAAEIAAAA/AAAAPAAAADYAAAAzAAAAMAAAAC0AAAAqAAAAJwAAACQAAAAhAAAAHgAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>ATY,MaguroS</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_NEED_RFRSH</key>
+					<true/>
+					<key>CFG_PTPL2_TBL</key>
+					<data>XQAAAEsAAABIAAAARQAAAEIAAAA/AAAAPAAAADYAAAAzAAAAMAAAAC0AAAAqAAAAJwAAACQAAAAhAAAAHgAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_READ_VALIDATION</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>ATY,Namako</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_DEF_DITH</key>
+					<integer>0</integer>
+					<key>CFG_DIAG_LED</key>
+					<integer>1</integer>
+					<key>CFG_NVV</key>
+					<integer>2</integer>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_ActivitySamplingInterval</key>
+					<integer>1300</integer>
+					<key>PP_MediumStateDownHysteresisTimeOut</key>
+					<integer>2162162</integer>
+					<key>PP_SISLANDSMediumStateHysteresisDown</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>ATY,Ramen</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_FB_LIMIT</key>
+					<integer>6</integer>
+					<key>CFG_NVV</key>
+					<integer>2</integer>
+					<key>CFG_PTPL2_TBL</key>
+					<data>GwAAABoAAAAZAAAAGAAAABcAAAAWAAAAFQAAABQAAAATAAAAEgAAABEAAAAQAAAADwAAAA4AAAANAAAACgAAAA==</data>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_USE_STUTTER</key>
+					<true/>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_EnableLoadPostProductionFirmware</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>ATY,Tako</key>
+			<dict>
+				<key>aty_config</key>
+				<dict>
+					<key>CFG_DEF_DITH</key>
+					<integer>0</integer>
+					<key>CFG_DIAG_LED</key>
+					<integer>1</integer>
+					<key>CFG_FB_LIMIT</key>
+					<integer>6</integer>
+					<key>CFG_NVV</key>
+					<integer>2</integer>
+					<key>CFG_USE_AGDC</key>
+					<true/>
+					<key>CFG_WDTH_ALGN</key>
+					<integer>256</integer>
+				</dict>
+				<key>aty_properties</key>
+				<dict>
+					<key>PP_EnableLoadPostProductionFirmware</key>
+					<integer>1</integer>
+					<key>PP_Falcon_QuickTransition_Enable</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMD7000Controller</string>
+			<key>IOClass</key>
+			<string>AMD7000Controller</string>
+			<key>IOMatchCategory</key>
+			<string>ATIFramebuffer</string>
+			<key>IOName</key>
+			<string>AMD7000Controller</string>
+			<key>IOPCIMatch</key>
+			<string>0x67901002 0x67981002 0x679A1002 0x679E1002 0x67801002 0x68201002 0x68211002 0x68231002 0x68251002 0x68271002 0x682B1002 0x682D1002 0x682F1002 0x68351002 0x68391002 0x683B1002 0x683D1002 0x683F1002 0x68001002 0x68011002 0x68061002 0x68081002 0x68101002 0x68111002 0x68181002 0x68191002</string>
+			<key>IOProbeScore</key>
+			<integer>65050</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>LoadController</key>
+				<true/>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>aty_config</key>
+			<dict>
+				<key>CFG_ALLOCATE_DMIF</key>
+				<true/>
+				<key>CFG_APER_MODE</key>
+				<integer>1</integer>
+				<key>CFG_CAA</key>
+				<integer>0</integer>
+				<key>CFG_FB_LIMIT</key>
+				<integer>0</integer>
+				<key>CFG_FORCEMAXDPM</key>
+				<false/>
+				<key>CFG_FORCE_HDMI</key>
+				<false/>
+				<key>CFG_FORCE_MAX_DPS</key>
+				<false/>
+				<key>CFG_GEN_FLAGS</key>
+				<integer>0</integer>
+				<key>CFG_INT_SSPC</key>
+				<integer>25</integer>
+				<key>CFG_NODM</key>
+				<true/>
+				<key>CFG_NO_HDCP</key>
+				<false/>
+				<key>CFG_NO_MST</key>
+				<false/>
+				<key>CFG_NO_PP</key>
+				<false/>
+				<key>CFG_NO_SLS</key>
+				<false/>
+				<key>CFG_PTPL2_MAX</key>
+				<integer>70</integer>
+				<key>CFG_PTPL2_MIN</key>
+				<integer>16</integer>
+				<key>CFG_PULSE_INT</key>
+				<true/>
+				<key>CFG_TRANS_WSRV</key>
+				<true/>
+				<key>CFG_USE_AGDC</key>
+				<true/>
+				<key>CFG_USE_DPT</key>
+				<true/>
+				<key>CFG_USE_FBC</key>
+				<false/>
+				<key>CFG_USE_FBWRKLP</key>
+				<true/>
+				<key>CFG_USE_FEDS</key>
+				<true/>
+				<key>CFG_USE_STUTTER</key>
+				<false/>
+				<key>CFG_WDTH_ALGN</key>
+				<integer>64</integer>
+				<key>DALReadDelayStutterOff</key>
+				<integer>4</integer>
+				<key>DALUseUrgencyWaterMarkOffset</key>
+				<integer>0</integer>
+			</dict>
+			<key>aty_properties</key>
+			<dict>
+				<key>PP_ActivitySamplingInterval</key>
+				<integer>1000</integer>
+				<key>PP_DALPowerLevel</key>
+				<integer>1</integer>
+				<key>PP_DisableCAC</key>
+				<integer>0</integer>
+				<key>PP_DisableDTE</key>
+				<integer>1</integer>
+				<key>PP_DisablePowerContainment</key>
+				<integer>0</integer>
+				<key>PP_DisableSMUUVDHandshake</key>
+				<integer>0</integer>
+				<key>PP_DisableSQRamping</key>
+				<integer>0</integer>
+				<key>PP_DisableULV</key>
+				<integer>0</integer>
+				<key>PP_DriverCalculateCACLeakage</key>
+				<integer>1</integer>
+				<key>PP_EnableLoadFalconSmcFirmware</key>
+				<integer>1</integer>
+				<key>PP_HighSamplingInterval</key>
+				<integer>200000</integer>
+				<key>PP_MCLKStutterModeThreshold</key>
+				<integer>40000</integer>
+				<key>PP_PhmUseDummyBackEnd</key>
+				<integer>0</integer>
+				<key>PP_SISLANDSVotingRightsClients</key>
+				<integer>12583475</integer>
+				<key>PP_UserMaxClockForMultiDisplays</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
