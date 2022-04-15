@@ -1,20 +1,23 @@
-# Hackintosh Big Sur EFI
-* Hackintosh Big Sur EFI for MSI B450m Mortar + R5 2600 + RX 570
+# Hackintosh Monterey EFI
+* Hackintosh Monterey EFI for MSI B450m Mortar + R5 2600 + RX 570
+
+### EFI不再更新了
+* 虽然觉得部分功能都近乎完美了，但是在adobe软件里兼容性还是硬伤，已经更换硬件用回了intel了，最后更新一次在用的efi，之后不再更新了。
 
 
 ### EFI详情
-* 支持MacOS版本：Big Sur 11.0.1
-* OpenCore版本：0.6.3
-* 更新日期：2020年11月18日
+* 支持MacOS版本：Monterey 12.3
+* OpenCore版本：0.7.8
+* 更新日期：2022年04月02日
 
 
 ### 配置清单
 * 主板：MSI B450m Mortar 迫击炮钛金版
 * CPU：AMD Ryzen5 2600
-* 显卡：Radeon RX 570 迪兰恒进/酷能
+* 显卡：Radeon RX 570 迪兰恒进/酷能 (后来换成了R7-370加了驱动)
 * 网卡：Fenvi-T1919 / BCM94360CD
 * 内存：铭瑄/MAXSUN DDR4 2600MHZ 16GX2 （超频3600mhz）
-* 固态硬盘：海康威视C2000 512G （很差超级差）
+* 固态硬盘：海康威视C2000 512G 
 * 机械硬盘：西部数据 3T + 东芝 3T （1T作为TimeMachine备份）
 
 ### 完美程度
